@@ -83,3 +83,55 @@
 
 // countvowels("apnacollege");
 
+// FOR EACH METHOD                    THIS IS ALSO CALLED HIGH ORDER FUNCTION 
+
+
+// let arr=["delhi","mumbai","pune"];
+
+// arr.forEach((val,idx,arr) => {
+//     console.log(val.toUpperCase(),idx,arr);
+// });
+
+
+// HOF: THIS IS THAT FUNCTONS , THAT USE OTHER FUNCTIONS AS PARAMETERS OR RETURN OTHER FUNCTIONS AS THEIR OUTPUT
+
+// Practice ques 
+
+// let arr1=[1,2,3,4,5];
+// arr1.forEach((arr1) => {
+//     console.log(arr1*arr1);
+// })
+
+
+// let nums=[2,6,8,6,9,3,4];
+// nums.forEach((nums) => {
+//     console.log(nums*nums);
+// })
+
+
+///  NEW METHOD ARR.FILTER()
+
+// let arr=[2,,4,9,6,8,7];
+
+// let newarr= arr.filter((val) => {
+//     return val%2 !== 0;
+// })
+// console.log(newarr);
+
+
+
+// PRACTICE QUES 
+
+// let arr=[22,56,85,90,95,65,98,94,92,93];
+// let newarr=arr.filter((val) => {
+//     return val>=90;
+// })
+// console.log(newarr);
+
+
+let n=prompt("enter the number of elements");
+let arr=[];
+for(let i=1;i<=n;i++){
+    arr[i-1]=i;
+}
+console.log(arr);
