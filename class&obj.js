@@ -51,3 +51,4 @@ class ToyotaCar{
 }
 
 let fortuner=new ToyotaCar();
+let lexus=new ToyotaCar();
