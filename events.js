@@ -1,4 +1,4 @@
-console.log("today we learn about events in javascript");
+//console.log("today we learn about events in javascript");
 
 // events in js
 // the change in the state of an object is known as an event 

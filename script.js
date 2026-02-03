@@ -129,9 +129,9 @@
 // console.log(newarr);
 
 
-let n=prompt("enter the number of elements");
-let arr=[];
-for(let i=1;i<=n;i++){
-    arr[i-1]=i;
-}
-console.log(arr);
+// let n=prompt("enter the number of elements");
+// let arr=[];
+// for(let i=1;i<=n;i++){
+//     arr[i-1]=i;
+// }
+// console.log(arr);
