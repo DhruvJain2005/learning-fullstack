@@ -30,4 +30,3 @@ const getdogs= async ()=>{
 // 1. AJAX :- is a asynchronous JS & XML
 // 2. JSON :- is a javascript object notation
 // 3. json() method :- returns a second prommise that resolves with the result of parsing the response body text as JSON ( input is JSON , output is JS object)
-// BACKEND NODE JS
