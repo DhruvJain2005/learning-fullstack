@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+
+.navbar.active {
+    background-color: black;
+}
+
+.logo {
+    width: 120px;
+}
+
+.signin-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/9a7c68a3-hero.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Row */
+.row {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.row-posters {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.row-posters img {
+    width: 200px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.row-posters img:hover {
+    transform: scale(1.1);
+}
