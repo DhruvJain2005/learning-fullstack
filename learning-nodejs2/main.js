@@ -15,4 +15,4 @@ fs.writeFile("dhruv2.txt","hello in my world",()=>{ // this is good method to wr
 fs.appendFile("dhruv2.txt","dhurv learning new things",(e,d) =>{
     console.log(d);
 })
-console.log("ending")
+console.log("ending");
